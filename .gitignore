@@ -1,0 +1,209 @@
+# ===========================================
+# Node.js Dependencies
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===========================================  
+# Build Output & Distribution
+# ===========================================
+dist/
+build/
+lib/
+out/
+*.tsbuildinfo
+
+# ===========================================
+# Environment & Configuration
+# ===========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.test
+.env.production
+
+# Config files with secrets
+*config*.local.json
+*config*.secret.json
+
+# ===========================================
+# Testing & Coverage
+# ===========================================
+coverage/
+.nyc_output/
+*.lcov
+.coverage/
+test-results/
+junit.xml
+
+# ===========================================
+# Logs & Runtime Data
+# ===========================================
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+.npm/_logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===========================================
+# Cache & Temporary Files  
+# ===========================================
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+tmp/
+temp/
+.tmp/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+.npm/_cacache/
+.npm/_cacache-tmp/
+
+# Optional REPL history
+.node_repl_history
+
+# ===========================================
+# Package Manager Files
+# ===========================================
+# Yarn
+.yarn-integrity
+.yarn/
+.pnp.*
+
+# npm
+*.tgz
+package-lock.json.bak
+.npmrc
+.npmignore
+npm-debug.log*
+.npm/_logs/
+.npm/_cacache/
+.npm/_cacache-tmp/
+
+# npm pack artifacts
+gqlopera-*.tgz
+*.tar.gz
+
+# npm publish artifacts
+.npmrc.local
+.npmrc.*.local
+
+# ===========================================
+# IDE & Editor Files
+# ===========================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+.\#*
+
+# ===========================================
+# OS Generated Files
+# ===========================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================================
+# CLI & GraphQL Specific
+# ===========================================
+# Generated GraphQL files (for testing)
+test-output/
+generated-operations/
+*.generated.graphql
+graphql/
+operations/
+
+# CLI test outputs
+cli-test-output/
+test-schema/
+
+# Config files with potentially sensitive data
+*.config.local.json
+gqlopera.config.*.json
+!gqlopera.config.example.json
+
+# ===========================================
+# Documentation & Generated Files
+# ===========================================
+docs/generated/
+api-docs/
+typedoc-output/
+
+# ===========================================
+# Security & Backup Files
+# ===========================================
+*.key
+*.pem
+*.p12
+*.p8
+*.bak
+*.backup
+*.orig
+
+# npm security files
+.npmrc.local
+.npmrc.*.local
+.npmrc.production
+.npmrc.staging
+
+# ===========================================
+# Dependency Lock Files
+# ===========================================
+# Keep package-lock.json (npm) for reproducible builds
+# Ignore other package managers' lock files to avoid conflicts
+yarn.lock  
+pnpm-lock.yaml
+
+# Always ignore backup/temporary lock files:
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak 

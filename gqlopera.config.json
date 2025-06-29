@@ -1,0 +1,8 @@
+{
+  "endpoint": "http://localhost:4000/graphql",
+  "output": "graphql",
+  "headers": {},
+  "maxDepth": 5,
+  "maxFields": 50,
+  "skipCircularRefs": true
+}

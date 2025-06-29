@@ -1,0 +1,25 @@
+{
+  "endpoint": "http://localhost:4000/graphql",
+  "output": "graphql",
+  "headers": {
+    "Authorization": "Bearer YOUR_TOKEN_HERE"
+  },
+  "excludeTypes": ["InternalType"],
+  "watch": false,
+  "maxDepth": 5,
+  "maxFields": 50,
+  "circularRefs": "skip",
+  "shallowMode": false,
+  "includeFields": ["id", "name", "title"],
+  "excludeFields": ["internalId", "metadata"],
+  "fieldDepthMap": {
+    "User": 2,
+    "Post": 1,
+    "Comment": 0
+  },
+  "circularRefDepth": 2,
+  "circularRefTypes": {
+    "User": 2,
+    "Post": 1
+  }
+} 
