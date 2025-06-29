@@ -1,10 +1,18 @@
 {
   "name": "gqlopera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to generate individual GraphQL operation files from GraphQL APIs",
   "main": "dist/index.js",
   "bin": {
     "gqlopera": "dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poisonshell/gqlopera.git"
+  },
+  "homepage": "https://github.com/poisonshell/gqlopera#readme",
+  "bugs": {
+    "url": "https://github.com/poisonshell/gqlopera/issues"
   },
   "scripts": {
     "build": "tsc",
