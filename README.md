@@ -10,6 +10,22 @@ A fast, focused CLI tool that extracts individual GraphQL operation files from a
 - **Organizes** them in `query/`, `mutation/`, and `subscription/` folders
 - **Ready for Codegen**: Generated files work seamlessly with GraphQL Code Generator 
 
+
+## ⚠️ Important Note: Recommended Workflow
+
+**Using generated hooks is no longer the recommended workflow.** 
+
+- Recommended approach is to use **Fragment Colocation** to declare each component’s data requirements near the component itself.
+- This approach keeps the number of data-fetching hooks low—ideally one per page—while avoiding network waterfalls and preventing overfetching..
+- The current recommendation is to **only generate `TypedDocumentNode`s** and use them with Apollo Client’s `useQuery`, `useSuspenseQuery`, `useFragment`, and `useSuspenseFragment` hooks.
+
+However, GQLOpera still can be used to :
+- **Quick project bootstrapping** - rapidly generate a starting point for your GraphQL operations
+- **API exploration** - understand your schema structure and available operations
+- **Migration projects** - extract operations from existing APIs
+- **Documentation** - create a reference of all available operations
+
+
 ## 🚀 Quick Start
 
 ```bash

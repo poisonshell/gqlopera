@@ -1,6 +1,6 @@
 {
   "name": "gqlopera",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool to generate individual GraphQL operation files from GraphQL APIs",
   "main": "dist/index.js",
   "bin": {
